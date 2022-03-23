@@ -1,0 +1,20 @@
+.list-container {
+  display: flex;
+  justify-content: space-between;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #475569;
+}
+@media screen and (max-width: 576px) {
+  .description {
+    font-size: 20px;
+  }
+}
+.image-icon {
+  height: 25px;
+  width: 25px;
+  margin-top: 16px;
+  margin-right: 16px;
+}
